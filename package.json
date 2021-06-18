@@ -1,0 +1,22 @@
+{
+  "name": "squoosh_folder",
+  "version": "1.0.0",
+  "description": "Run Squoosh on all files in a directory",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js input/ output/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@squoosh/lib": "^0.3.1",
+    "colors": "^1.4.0",
+    "exif": "^0.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
